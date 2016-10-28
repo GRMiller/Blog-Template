@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+
+	<meta name="description" content=""/>
+	<meta http-equiv="author" content="Garrett R. Miller"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content ="width=device-width, initial-scale=1"/>
+
+	<!-- INSERT: JQUERY, BOOTSTRAP OR FLEXBOX SCRIPTS -->
+	<script></script>
+
+	<!--INSERT FONTS-->
+	<link href=""/>
+
+	<!-- INSERT CSS -->
+	<!-- <link href="css/reset.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/mainstyles.css" /> -->
+</head>
+
+
+
+<!--BEGIN BODY-->
+<body>
+
+<script>
+var event = 'whiteSnakeConcert';
+var temp = '87';
+var eventClothes;
+var tempClothes;
+
+
+if (event==='casual') {
+  eventClothes='something comfy';
+} else if (event==='semiFormal') {
+  eventClothes='a polo';
+} else if (event==='formal') {
+  eventClothes='a suit';
+} else if (event==='whiteSnakeConcert') {
+  eventClothes='that one badass jean jacket';
+};
+
+if (temp<='54'){
+  tempClothes='a warm coat';
+} else if (temp>'54' && temp<='70') {
+  tempClothes='a light jacket';
+} else if (temp>'70' && temp<='85'){
+  tempClothes='t-shirt';
+} else if (temp>'85') {
+  tempClothes='no shirt';
+};
+
+console.log("Since you are going to a White Snake Concert you should wear " + eventClothes + " and " + tempClothes)
+console.log(eventClothes);
+console.log(tempClothes);
+document.write("Since you are going to a White Snake Concert you should wear " + eventClothes + "& " + tempClothes);
+</script>
+
+
+
+</body>
+</html>
