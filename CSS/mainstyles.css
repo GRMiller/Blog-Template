@@ -1,0 +1,82 @@
+/*IMPORT ALL NECESSARY THINGS*/
+
+@font-face {
+	font-family:'Playfair Display';
+	src: url('../fonts/playfair_display/PlayfairDisplay-Regular.ttf');
+}
+
+
+
+/*BEGIN BODY*/
+body {
+	max-width:100%;
+	min-width:100%;
+	max-height:100%;
+	min-height:100%;
+	font-family:'Playfair Display', serif;
+}
+
+
+/*BEGIN SIDE NAVBAR*/
+nav#sidebar-wrapper {
+	height:100%;
+	max-width:20%;
+	min-width:20%;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	overflow-x:hidden;
+	transition:1s;
+	padding-top:40px;
+	padding-left:30px;
+	border:2px solid black;
+}
+
+#sidebar-logo {
+	max-width:50%;
+	/*min-width:50%;*/
+	max-height:20%;
+	/*min-height:20%;*/
+	margin:0px 25%;
+}
+
+#sidebar-wrapper ul{
+	list-style-type: none;
+	width:90%;
+	text-align:left;
+	margin-top:30px;
+}
+
+#sidebar-wrapper li {
+	text-decoration:none;
+	font-size:1.5em;
+	line-height:2.5em;	
+}
+
+
+
+
+/*BEGIN PAGE CONTENT*/
+#page-content-wrapper {
+	/*max-width:80%;*/
+	min-width:80%;
+	margin-left:20%;	
+}
+
+.hero_img {
+	width:100%;
+	max-height:600px;
+}
+
+.atf {
+	text-align:right;
+	padding:0px;	
+}
+
+.atf h1{
+	margin-right:50px;
+	font-size:3em;
+	font-weight: 800;
+	letter-spacing: .2em;
+}
