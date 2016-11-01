@@ -1,12 +1,12 @@
-var farenheit = Number(document.getElementById('farenheit').textContent);
-var celsius = (farenheit - 32 * (5/9));
-console.log(farenheit);
-console.log(celsius);
+var farenheit;
+var celsius;
 
 
 function toCelsius() {
-var elcelsius = document.getElementById ('celsius');
-elcelsius.innerHTML = celsius;
+	farenheit = Number(document.getElementById('farenheit').textContent);
+	celsius = ((farenheit - 32) / 1.8);
+	var elcelsius = document.getElementById ('celsius');
+	elcelsius.innerHTML = celsius;
 };
 
 toCelsius();
